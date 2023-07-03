@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Coin Toss Game
+    </title>
+    <link rel="stylesheet" href="12-coin-toss.css" >
+  </head>
+  <body>
+    <p class="title">
+      Toss-time
+    </p>
+    <button class="Toss-button" onclick="
+     getResult('Head');
+      ">
+      <img class="Toss-icon" src="Head-icon.png">
+    </button>     
+    <button class="Toss-button" onclick="
+     getResult('Tail');
+    ">
+      <img class="Toss-icon" src="Tail-icon.png">
+    </button>
+    <button class="Toss-button" onclick="
+    resetScore();
+    updateScore();
+  ">
+    <img class="Toss-icon" src="Reset-icon.png">
+  </button>
+    <p class="js-score-button"></p>
+    <p class="js-result-button"></p>
+    <p class="js-resultDetails-button"></p>
+  </button>     
+  <button class="auto-play-button" onclick="
+    autoPlay();
+  ">Autoplay</button>
+  <script src="12-coin-toss.js">
+  </script>
+  </body>
+</html>
